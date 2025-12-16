@@ -1057,7 +1057,7 @@ The only source of light, aside from your headlamps, is the central console. As 
 ]]]
 
 (if: $ability is 2)[
-|button&gt;[(link-repeat: &quot;☕ validate steps 🔄&quot;)[
+|button&gt;[(link-repeat: &quot;☕ fix past mistakes 🔄&quot;)[
 (set: _repairs to 0)
 &lt;script&gt;let data = $nng1;_repairs = window.nng.repair(data);&lt;/script&gt;
 (if: _repairs is 1)[(replace: ?summary)[You validate your past steps and manage to fix the inconsistencies.]]
@@ -1099,7 +1099,7 @@ The only source of light, aside from your headlamps, is the central console. As 
 ]]]
 
 (if: $ability is 2)[
-|button&gt;[(link-repeat: &quot;☕ validate steps 🔄&quot;)[
+|button&gt;[(link-repeat: &quot;☕ fix past mistakes 🔄&quot;)[
 (set: _repairs to 0)
 &lt;script&gt;let data = $nng2;_repairs = window.nng.repair(data);&lt;/script&gt;
 (if: _repairs is 1)[(replace: ?summary)[You validate your past steps and manage to fix the inconsistencies.]]
