@@ -1281,7 +1281,7 @@ Writing, Design &amp; Code by (link-repeat: &quot;Frájd&quot;)[(open-url: &quot
 Special Thanks to Lancer TTRPG by Massif Press
 ]&lt;br&gt;&lt;br&gt;
 
-|button&gt;[(link-goto: &quot;Back to Title&quot;, &quot;title-screen&quot;)]
+|button&gt;[(link: &quot;Back to Title&quot;)[(restart:)]]
 }&lt;!-- credits --&gt;</tw-passagedata><tw-passagedata pid="16" name="ending-full-report" tags="story" position="1400,0" size="100,100">{&lt;!-- story --&gt;
 ($checkpoint:)
 
@@ -1340,6 +1340,8 @@ Of course, while you could make great progress by relying on the work of others,
 |button&gt;[(link-reveal-goto: &quot;do something else ➡️&quot;, &quot;work-before&quot;)[($prev_phase:)]]
 
 }&lt;!-- loop --&gt;</tw-passagedata><tw-passagedata pid="20" name="intro" tags="story" position="300,200" size="100,100">{&lt;!-- story --&gt;
+(forget-undos: -1)
+(forget-visits: -1)
 
 |console&gt;[
 LOCATION: ODENHEIMER&#39;S REACH `[HD 129590]`&lt;br&gt;
